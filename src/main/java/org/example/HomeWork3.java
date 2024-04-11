@@ -65,7 +65,7 @@ public class HomeWork3 {
 
 
         System.out.println();
-        System.out.println("Array after sorting: ");            //output to the console for sorted array
+        System.out.println("Array after sorting: ");            //output to the console sorted array
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
