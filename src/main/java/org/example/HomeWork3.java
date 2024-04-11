@@ -2,6 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
+
 public class HomeWork3 {
     //Створити масив з 20 елементів типу int. Вивесті в консоль всі елементи масиву у
     // відсортованому винляді в будьяку сторону.
