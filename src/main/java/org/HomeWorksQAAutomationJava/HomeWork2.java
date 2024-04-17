@@ -1,6 +1,5 @@
-package org.example;
+package org.HomeWorksQAAutomationJava;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class HomeWork2 {

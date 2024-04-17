@@ -1,4 +1,4 @@
-package org.example;
+package org.HomeWorksQAAutomationJava;
 
 import java.util.Scanner;
 
