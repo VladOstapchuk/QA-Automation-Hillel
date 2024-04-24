@@ -9,17 +9,15 @@ public class Animal {
     public Animal() {
     }
 
-    public boolean getVegetarian() {
-        return vegetarian;
-    }
-
-
     public Animal(boolean vegetarian, String eats, int noOfLegs) {
         this.vegetarian = vegetarian;
         this.eats = eats;
         this.noOfLegs = noOfLegs;
     }
 
+    public boolean getVegetarian() {
+        return vegetarian;
+    }
 
     public void setVegetarian(boolean vegetarian) {
         this.vegetarian = vegetarian;
