@@ -1,7 +1,5 @@
 package org.HomeWorksQAAutomationJava.HomeWork6DevelopmentTeam;
 
-import java.util.Arrays;
-
 public class Manager extends Employee {
     final String lastName;
     private Employee[] team;
