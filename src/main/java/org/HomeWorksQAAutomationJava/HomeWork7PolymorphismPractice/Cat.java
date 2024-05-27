@@ -26,5 +26,6 @@ public class Cat extends Member{
     }
 
     //тест тест тест
+    //тест тест тест
 }
 
