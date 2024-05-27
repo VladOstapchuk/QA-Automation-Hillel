@@ -25,7 +25,5 @@ public class Cat extends Member{
         System.out.println("Перестрибнув");
     }
 
-    //тест тест тест
-    //тест тест тест
 }
 
