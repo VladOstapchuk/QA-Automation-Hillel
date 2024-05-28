@@ -19,6 +19,7 @@ public class Main {
         //first task
         List listFirstTask = new ArrayList();
 
+        //заповнюю List
         listFirstTask.add("apple");
         listFirstTask.add("mango");
         listFirstTask.add("car");
@@ -31,6 +32,8 @@ public class Main {
 
 
         Count count1 = new Count();
+
+        //Вивожу результат
         System.out.println("____________________________________________________");
         System.out.println("Task 1 result");
         System.out.println("Count is: " + count1.countOccurance(listFirstTask, "car"));

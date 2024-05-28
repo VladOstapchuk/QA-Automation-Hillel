@@ -39,13 +39,13 @@ public class Calc {
                     }
 
                 }
-                // інакше записую нове значення в мапу. Ключ присвоюю = 1
+                // інакше записую нове значення в мапу. Велью присвоюю = 1
             } else wordmap.put(string, 1);
 
         }
 
 
-        //виводжу мапу на друк
+        //Кожний елемент мапи за допомогою ForEach виводжу на консоль
         for (Map.Entry<String, Integer> entry : wordmap.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
 

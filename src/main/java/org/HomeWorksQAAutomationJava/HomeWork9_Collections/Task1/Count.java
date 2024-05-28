@@ -19,10 +19,11 @@ public class Count {
     }
 
 
-    public int countOccurance(List<String> wordlist, String word) {
+    //перебираю за допомогою ForEach та збільшую лічильник
+    public int countOccurance(List<String> wordlist, String wordToFind) {
         int count = 0;
         for (String string : wordlist) {
-            if (string.equalsIgnoreCase(word)) {
+            if (string.equalsIgnoreCase(wordToFind)) {
                 count++;
             }
         }
