@@ -14,7 +14,7 @@ public class Robot extends Member{
     //метод що дозволяє ПРОБІГАТИ будь-яку перешкоду
     @Override
     public void bigaty(Pereshkoda pereshkoda) {
-        System.out.println("Робот пробіг " + pereshkoda.getName() + " на дистанції " + + pereshkoda.getSize());
+        System.out.println("Робот пробіг " + pereshkoda.getName() + " на дистанції " + pereshkoda.getSize());
     }
 
 

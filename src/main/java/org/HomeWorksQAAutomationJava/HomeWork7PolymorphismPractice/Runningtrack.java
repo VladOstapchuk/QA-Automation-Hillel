@@ -6,7 +6,7 @@ public class Runningtrack implements Pereshkoda {
     private final String name = "Бігова доріжка";
 
     //розмір перешкоди
-    private int size = 10;
+    private final int size = 10;
 
     public String getName() {
         return name;

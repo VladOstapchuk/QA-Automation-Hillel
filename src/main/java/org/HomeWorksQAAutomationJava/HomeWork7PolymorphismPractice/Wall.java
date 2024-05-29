@@ -3,7 +3,7 @@ package org.HomeWorksQAAutomationJava.HomeWork7PolymorphismPractice;
 public class Wall implements Pereshkoda {
 
     //назва типу перешкоди
-    private int size = 2;
+    private final int size = 2;
 
     //розмір перешкоди
     private final String name = "Стіна";
