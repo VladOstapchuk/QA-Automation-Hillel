@@ -2,14 +2,15 @@ package org.HomeWorksQAAutomationJava.HomeWork7PolymorphismPractice;
 
 public abstract class Member {
 
-    String type;
-    String name;
+    abstract void bigaty(Pereshkoda pereshkoda);
 
-    abstract String getType();
+    abstract int getCanMove();
 
-    abstract String getName();
+    abstract void strybaty(Pereshkoda pereshkoda);
+    abstract void podolatyPereshkodu(Pereshkoda pereshkoda);
 
-    abstract void behavior();
+    abstract void nePodolavPereshkodu(Pereshkoda pereshkoda);
 
 
 }
+
