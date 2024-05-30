@@ -44,13 +44,27 @@ public class FindOcc {
         }
         //створюю List, тому що за завданням виведення має [ ] і особливий формат
         List<String> printlist = new ArrayList<>();
+
+        int i = wordmap.size();// Змінна для відстеження останнього елемента
+
         for (Map.Entry<String, Integer> entry : wordmap.entrySet()) {
 
-            //надаю потрібний формат і записую в List
-            printlist.add("{name: \"" + entry.getKey() + "\", occurrence: " + entry.getValue().toString()+"}");
+            if (i>=(wordmap.size()-1)){
+
+                //надаю потрібний формат і записую в List
+                printlist.add("\n"+"{name: \"" + entry.getKey() + "\", occurrence: " + entry.getValue().toString()+"}");
+                i--;
+            }
+            else {
+                //надаю потрібний формат і записую в List
+                printlist.add("\n"+"{name: \"" + entry.getKey() + "\", occurrence: " + entry.getValue().toString()+"}"+"\n");
+
+            }
+
 
         }
-        System.out.println(printlist);
+
+         System.out.println(printlist);
 
     }
 }
