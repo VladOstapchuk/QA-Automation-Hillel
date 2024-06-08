@@ -1,0 +1,30 @@
+[INFO] Insufficient Memory
+[WARN] Hi temperature
+[ERROR] Unexpected result
+[ERROR] Critical situation
+[INFO] Low Speed
+[INFO] High Load
+[WARN] Overload HDD
+[WARN] Contact was lost
+[INFO] Balanced process
+[ERROR] Alert! Alert! Alert!
+[INFO] Insufficient Memory
+[WARN] Hi temperature
+[ERROR] Unexpected result
+[ERROR] Critical situation
+[INFO] Low Speed
+[INFO] High Load
+[WARN] Overload HDD
+[WARN] Contact was lost
+[INFO] Balanced process
+[ERROR] Alert! Alert! Alert!
+[INFO] Insufficient Memory
+[WARN] Hi temperature
+[ERROR] Unexpected result
+[ERROR] Critical situation
+[INFO] Low Speed
+[INFO] High Load
+[WARN] Overload HDD
+[WARN] Contact was lost
+[INFO] Balanced process
+[ERROR] Alert! Alert! Alert!
